@@ -26,7 +26,6 @@ deptid int primary key,
 dnumber int ,constraint chk check(dnumber between 10 and 50),
 dname varchar(50),constraint chkname check(binary dname=upper(dname))
 );
-drop table department1;
 select * from department1;
 insert into department1(deptid,dnumber,dname) values (01,10,"COMPUTER");
 insert into department1(deptid,dnumber,dname) values (02,20,"civil");
