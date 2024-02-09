@@ -5,7 +5,6 @@ student1 schema(crn,name,address,DOB)
 department1 schema(deptid,dnumber,dname)
 course1(courseId,coursename,duration,fee)
 */
-
 /*-- 1.Create relation student on student schema with the underlined attribute as primary key
  and attribute name is not null.*/
 create table student1(
